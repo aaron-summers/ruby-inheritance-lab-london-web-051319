@@ -2,6 +2,6 @@ class Student < User
   @@array
   
   def new
-    array = Array.new(0)
+    knowledge  = Array.new(0)
   end
 end
