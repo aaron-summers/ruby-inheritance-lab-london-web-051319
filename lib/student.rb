@@ -9,4 +9,8 @@ class Student < User
     @array << string
   end
   
+  def knowledge
+    
+  end
+  
 end
