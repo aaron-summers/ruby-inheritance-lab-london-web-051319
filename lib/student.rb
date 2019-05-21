@@ -1,5 +1,5 @@
 class Student < User
   def new
-    array = []
+    array = Array.new(0)
   end
 end
