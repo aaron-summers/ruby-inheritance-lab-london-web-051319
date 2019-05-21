@@ -3,4 +3,13 @@ class Student < User
  def initialize
    @knowledge  = Array.new(0)
  end
+ 
+ def learn(string)
+   @knowledge << string
+ end
+ 
+ def knowledge
+   @knowledge
+ end
+  
 end
