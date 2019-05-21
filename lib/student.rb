@@ -2,7 +2,7 @@ class Student < User
   
   
   def initialize
-    array = Array.new(0)
+    array = []
   end
   
   def learn(string)
