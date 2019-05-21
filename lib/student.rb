@@ -5,6 +5,6 @@ class Student < User
  end
   
   def new
-    knowledge  = Array.new(0)
+    @knowledge  = Array.new(0)
   end
 end
