@@ -1,7 +1,7 @@
 class Student < User
   attr_accessor :array
   
-  def initialize
+  def initialize(array)
     @array = []
   end
   
